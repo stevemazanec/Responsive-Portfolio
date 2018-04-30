@@ -1,0 +1,49 @@
+#paragraph1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
+
+#paragraph2 {
+    font-family: 'Lobster', cursive;
+}
+
+#paragraph3 {
+    font-family: 'Pacifico', cursive;
+}
+
+#paragraph4 {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#link1:default {
+    font-size: 24px;
+    text-decoration: none;
+}
+
+#link1:active {
+    font-size:24px;
+    color: red;
+    text-decoration: none;
+}
+
+#link1:hover {
+    text-decoration: underline;
+    color: blue;
+    font-size: 30px;
+}
+
+#link1:focus {
+    color:green;
+    font-size: 40px;
+}
+
+#link2:focus {
+    color: pink;
+}
+
+#paragraph1:first-line {
+    color:blue;
+}

@@ -1,0 +1,338 @@
+#heading {
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    border-bottom: 3px solid #c4c2c2;
+}
+
+#name {
+    background-color: #4aaaa5;
+    color: white;
+    width: 175px;
+    height: 50px;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Georgia', times, 'Times New Roman', serif;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    margin-left: 185px;
+}
+  
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+li {
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+li a {
+    display: inline;
+    padding: 15px;
+}
+
+a:link {
+    color: #777777;
+}
+
+a:visited {
+    color: #777777;
+}
+
+#contact {
+    border-right: solid 1px #cccccc;
+}
+
+#portfolio {
+    border-right: solid 1px #cccccc;
+}
+
+
+body {
+    background-image: url(../images/circles-light.png);
+    background-color: #cccccc;
+}
+
+#myPicture {
+    float: left;
+    width: 200px;
+    padding-right: 15px;
+    margin-top: 20px;
+}
+
+p {
+    color: #777777;
+    font-family: 'arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+h2 {
+    clear:both;
+    color: #4aaaa5; 
+    border-bottom: 2px solid #cccccc;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+form {
+    margin-top:30px;
+}
+
+#container {
+    width: 960px;
+    background-color: white;
+    border-color: #ffffff;  
+    margin: auto;
+    padding: 20px;
+}
+
+#indexContainer {
+    width: 960px;
+    background-color: white;
+    border-color: #ffffff;
+    margin: auto;
+    padding: 20px;
+    height: 350px;
+}
+
+#portfolioContainer {
+    width: 960px;
+    background-color: white;
+    border-color: #ffffff;
+    margin: auto;
+    height: 580px;
+    padding: 20px;
+}
+
+.input {
+    width: 100%;
+    font-family: 'arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+#comment {
+    height:125px;
+}
+
+#submit {
+    color: white;
+    background-color: #4aaaa5;
+    height: 35px;
+    width: 75px;
+    font-family: 'arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+#projects {
+    position: relative;
+    font-family: 'arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+    margin-bottom: 50px;
+}
+
+#black-and-gold {
+    float: left;
+    position: relative;
+    width: 380px;
+    text-align: center;
+    top: 35%;
+    left: 0%;
+    margin: 10px 10px 20px 10px;
+    padding-right: 20px;
+}
+
+#black-and-gold-text {
+    float: left;
+    position: absolute;
+    color: white;
+    background-color: #4aaaa5;
+    top: 65%;
+    width: 380px;
+    text-align: center;
+    padding: 10px;
+}
+
+#soccer {
+    float: left;
+    position: relative;
+    width: 380px;
+    text-align: center;
+    margin: 10px 10px 20px 10px;
+    padding-left: 20px;
+}
+
+#soccer-text {
+    float: left;
+    position: absolute;
+    color: white;
+    background-color: #4aaaa5;
+    top: 65%;
+    width: 380px;
+    text-align: center;
+    padding: 10px;
+}
+
+#sushi {
+    float: left;
+    position: relative;
+    width: 380px;
+    text-align: center;
+    left: 0%;
+    margin: 20px 10px 10px 10px;
+    padding-right: 20px;
+}
+
+#sushi-text {
+    float: left;
+    position: absolute;
+    color: white;
+    background-color: #4aaaa5;
+    top: 65%;
+    width: 380px;
+    text-align: center;
+    padding: 10px;
+}
+
+#discoBall {
+    float: left;
+    position: relative;
+    width: 380px;
+    margin: 20px 10px 10px 10px;
+    padding-left: 20px; 
+}
+
+#discoBall-text {
+    float: left;
+    position: absolute;
+    color: white;
+    background-color: #4aaaa5;
+    top: 65%;
+    width: 380px;
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
+    clear: both;
+    background-color: #666666;
+    color: #cccccc;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    border-top: 6px solid #4aaaa5;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 980px) {
+#container, #portfolioContainer, #indexContainer {
+    width: 90%;
+}
+#name {
+    margin-left: 5%;
+}
+}
+
+@media screen and (max-width: 768px) {
+    #container, #portfolioContainer, #indexContainer {
+        width: 85%;
+    }
+    #name {
+        margin-left: 5%;
+    }
+
+    #black-and-gold {
+       width: 85%;
+       left: 0;
+    }
+    #black-and-gold-text {
+        width: 69%;
+        margin-left: 12%
+    }
+
+    #soccer {
+        width: 85%;
+        left: 0;
+     }
+     #soccer-text {
+         width: 69%;
+         margin-left: 12%
+     }
+
+     #sushi {
+        width: 85%;
+        left: 0;
+     }
+     #sushi-text {
+         width: 69%;
+         margin-left: 12%
+     }
+
+     #discoBall {
+        width: 85%;
+        left: 0;
+        margin-bottom: 50px;
+     }
+     #discoBall-text {
+         width: 69%;
+
+     }
+}
+
+@media screen and (max-width: 640px) {
+    #container, #portfolioContainer, #indexContainer {
+        width: 85%;
+    }
+    #name {
+        width: 100%;
+        margin-left: 0;
+    }
+    #links {
+        width: 100%;
+    }
+    #black-and-gold {
+        width: 85%;
+        left: 0;
+     }
+     #black-and-gold-text {
+         width: 83%;
+         margin-left: 4%;
+     }
+ 
+     #soccer {
+         width: 85%;
+         left: 0;
+      }
+      #soccer-text {
+          width: 83%;
+          margin-left: 4%
+      }
+ 
+      #sushi {
+         width: 85%;
+         left: 0;
+      }
+      #sushi-text {
+          width: 83%;
+          margin-left: 4%
+      }
+ 
+      #discoBall {
+         width: 85%;
+         left: 0;
+         margin-bottom: 50px;
+      }
+      #discoBall-text {
+        width: 83%;
+        margin-left: 0;
+      }
+}
