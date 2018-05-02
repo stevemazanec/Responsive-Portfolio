@@ -74,6 +74,10 @@ p {
     line-height: 1.6;
 }
 
+#closingText {
+    margin-bottom: 50px;
+}
+
 h2 {
     clear:both;
     color: #4aaaa5; 
@@ -240,52 +244,34 @@ footer {
 #name {
     margin-left: 5%;
 }
+
+#soccer {
+    width: auto;
+    padding-right: 0px;
+    padding-left: 17px;
 }
 
 @media screen and (max-width: 768px) {
     #container, #portfolioContainer, #indexContainer {
         width: 85%;
     }
+    #portfolioContainer {
+        height: 975px;
+    }
+    #indexContainer {
+        height: 450px;
+    }
     #name {
         margin-left: 5%;
     }
-
-    #black-and-gold {
-       width: 85%;
-       left: 0;
-    }
-    #black-and-gold-text {
-        width: 69%;
-        margin-left: 12%
-    }
-
     #soccer {
-        width: 85%;
-        left: 0;
-     }
-     #soccer-text {
-         width: 69%;
-         margin-left: 12%
-     }
+        padding-left: 0px;
+    }
 
-     #sushi {
-        width: 85%;
-        left: 0;
-     }
-     #sushi-text {
-         width: 69%;
-         margin-left: 12%
-     }
+    #discoBall {
+        padding-left: 0px;
+    }
 
-     #discoBall {
-        width: 85%;
-        left: 0;
-        margin-bottom: 50px;
-     }
-     #discoBall-text {
-         width: 69%;
-
-     }
 }
 
 @media screen and (max-width: 640px) {
@@ -294,45 +280,19 @@ footer {
     }
     #name {
         width: 100%;
+        height: 20px;
         margin-left: 0;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
     #links {
+        height: 20px;
         width: 100%;
+        display: flex;
+        justify-content: center;
     }
-    #black-and-gold {
-        width: 85%;
-        left: 0;
-     }
-     #black-and-gold-text {
-         width: 83%;
-         margin-left: 4%;
-     }
- 
-     #soccer {
-         width: 85%;
-         left: 0;
-      }
-      #soccer-text {
-          width: 83%;
-          margin-left: 4%
-      }
- 
-      #sushi {
-         width: 85%;
-         left: 0;
-      }
-      #sushi-text {
-          width: 83%;
-          margin-left: 4%
-      }
- 
-      #discoBall {
-         width: 85%;
-         left: 0;
-         margin-bottom: 50px;
-      }
-      #discoBall-text {
-        width: 83%;
-        margin-left: 0;
-      }
+    #indexContainer {
+        height: 550px;
+    }
+}
 }
