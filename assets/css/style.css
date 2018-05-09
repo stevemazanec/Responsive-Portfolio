@@ -140,7 +140,7 @@ form {
     margin-bottom: 50px;
 }
 
-#black-and-gold {
+#psychicGame {
     float: left;
     position: relative;
     width: 380px;
@@ -151,7 +151,12 @@ form {
     padding-right: 20px;
 }
 
-#black-and-gold-text {
+#psychicGamePicture {
+    height: 200px;
+    width: 400px;
+}
+
+#psychic-game-text {
     float: left;
     position: absolute;
     color: white;
