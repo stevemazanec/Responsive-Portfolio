@@ -167,7 +167,7 @@ form {
     padding: 10px;
 }
 
-#soccer {
+#crystalsGame {
     float: left;
     position: relative;
     width: 380px;
@@ -175,8 +175,12 @@ form {
     margin: 10px 10px 20px 10px;
     padding-left: 20px;
 }
+#cyrstalsGamePicture {
+    height: 200px;
+    width: 400px;
+}
 
-#soccer-text {
+#crystals-text {
     float: left;
     position: absolute;
     color: white;
