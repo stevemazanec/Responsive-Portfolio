@@ -191,7 +191,7 @@ form {
     padding: 10px;
 }
 
-#sushi {
+#beatlesTrivia {
     float: left;
     position: relative;
     width: 380px;
@@ -200,8 +200,12 @@ form {
     margin: 20px 10px 10px 10px;
     padding-right: 20px;
 }
+#beatlesTriviaPicture {
+    height: 200px;
+    width: 400px;
+}
 
-#sushi-text {
+#beatles-text {
     float: left;
     position: absolute;
     color: white;
@@ -253,11 +257,12 @@ footer {
 #name {
     margin-left: 5%;
 }
-
-#soccer {
+#crystalsGame {
+    padding-left: 20px;
+}
+#crystalsGamePicture {
     width: auto;
     padding-right: 0px;
-    padding-left: 17px;
 }
 
 @media screen and (max-width: 768px) {
@@ -273,7 +278,7 @@ footer {
     #name {
         margin-left: 5%;
     }
-    #soccer {
+    #crystalsGame {
         padding-left: 0px;
     }
 
