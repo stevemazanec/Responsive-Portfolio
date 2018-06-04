@@ -216,7 +216,7 @@ form {
     padding: 10px;
 }
 
-#discoBall {
+#sportsGIFS {
     float: left;
     position: relative;
     width: 380px;
@@ -224,7 +224,7 @@ form {
     padding-left: 20px; 
 }
 
-#discoBall-text {
+#sportsGIFS-text {
     float: left;
     position: absolute;
     color: white;
