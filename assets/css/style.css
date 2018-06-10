@@ -234,6 +234,56 @@ form {
     text-align: center;
     padding: 10px;
 }
+#trainScheduler {
+    float: left;
+    position: relative;
+    width: 380px;
+    text-align: center;
+    top: 35%;
+    left: 0%;
+    margin: 10px 10px 50px 10px;
+    padding-right: 20px;
+}
+
+#trainSchedulerPicture {
+    height: 200px;
+    width: 400px;
+}
+
+#train-text {
+    float: left;
+    position: absolute;
+    color: white;
+    background-color: #4aaaa5;
+    top: 65%;
+    width: 380px;
+    text-align: center;
+    padding: 10px;
+}
+
+#placeholderImage {
+    float: left;
+    position: relative;
+    width: 380px;
+    text-align: center;
+    margin: 10px 10px 20px 10px;
+    padding-left: 20px;
+}
+#placeholderImagePicture {
+    height: 200px;
+    width: 400px;
+}
+
+#placeholderImage-text {
+    float: left;
+    position: absolute;
+    color: white;
+    background-color: #4aaaa5;
+    top: 65%;
+    width: 380px;
+    text-align: center;
+    padding: 10px;
+}
 
 footer {
     clear: both;
